@@ -1,0 +1,21 @@
+< React 설치 >
+
+1. Node.js와 NPM
+  - NPM (Node Package Manager): 그래들, 메이븐 처럼 Node.js 관련 라이브러리 설치
+  - Node.js: 자바스크립트를 브라우저 밖 즉, 내컴퓨터(서버)에서도 사용가능하도록 해줌
+  - Node.js 설치: https://nodejs.org/ko/download 에서 v22.14.0 (LTS) 선택 후 .msi 다운로드
+
+2. 비주얼 스튜디오 코드 설치 (https://code.visualstudio.com/download)
+  - 다운로드 후 설치
+  - 적당한 폴더에 워크 스페이스 생성
+  - 커맨드 창으로 워크스페이스 까지 이동 해서 "npx create-react-app test" Enter
+  - "Happy Hacking" 확인
+  - "cd test"로 test 폴더 이동 후 "npm start"
+    => React 내장 서버가 켜지면서 localhost:3000 주소를 알려준다.
+	
+※ 비주얼 스튜디오 설정 변경 (단축키)
+	- File -> Preferences -> Keyboard Shorcuts
+	  "Delete Line" 검색 -> Ctrl + D
+      "increase" 검색 -> Increase Edit Font Size 선택 -> Ctrl + Shift + Numpad_Add 
+	  "decrease" 검색 -> Decrease Edit Font Size 선택 -> Ctrl + Shift + Numpad_Subtract
+  
