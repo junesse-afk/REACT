@@ -9,6 +9,7 @@ const Controller = ({handleSetNum
             <button
                 key={index}
                 className="button"
+                class='button'
                 onClick={() => handleSetNum(value)}
             >
                 {value}
